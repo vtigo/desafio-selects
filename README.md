@@ -42,16 +42,12 @@ Este projeto demonstra interface de três selects hierárquicos — **Categoria*
 
    ```bash
    npm install
-   # ou
-   pnpm install
    ```
 
 3. **Inicie o servidor de desenvolvimento**
 
    ```bash
    npm run dev
-   # ou
-   pnpm dev
    ```
 
 4. **Acesse**
