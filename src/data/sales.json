@@ -1,0 +1,62 @@
+{
+  "Electronics": {
+    "Phones": {
+      "Apple": [
+        { "month": "January", "sales": 50 },
+        { "month": "February", "sales": 300 },
+        { "month": "March", "sales": 150 },
+        { "month": "April", "sales": 800 }
+      ],
+      "Samsung": [
+        { "month": "January", "sales": 30 },
+        { "month": "February", "sales": 400 },
+        { "month": "March", "sales": 220 },
+        { "month": "April", "sales": 500 }
+      ]
+    },
+    "Laptops": {
+      "Dell": [
+        { "month": "January", "sales": 1200 },
+        { "month": "February", "sales": 800 },
+        { "month": "March", "sales": 950 },
+        { "month": "April", "sales": 700 }
+      ],
+      "HP": [
+        { "month": "January", "sales": 80 },
+        { "month": "February", "sales": 500 },
+        { "month": "March", "sales": 300 },
+        { "month": "April", "sales": 950 }
+      ]
+    }
+  },
+  "Clothing": {
+    "Shirts": {
+      "Nike": [
+        { "month": "January", "sales": 20 },
+        { "month": "February", "sales": 250 },
+        { "month": "March", "sales": 180 },
+        { "month": "April", "sales": 550 }
+      ],
+      "Adidas": [
+        { "month": "January", "sales": 10 },
+        { "month": "February", "sales": 160 },
+        { "month": "March", "sales": 90 },
+        { "month": "April", "sales": 300 }
+      ]
+    },
+    "Shoes": {
+      "Puma": [
+        { "month": "January", "sales": 5 },
+        { "month": "February", "sales": 150 },
+        { "month": "March", "sales": 100 },
+        { "month": "April", "sales": 350 }
+      ],
+      "Reebok": [
+        { "month": "January", "sales": 2 },
+        { "month": "February", "sales": 120 },
+        { "month": "March", "sales": 80 },
+        { "month": "April", "sales": 260 }
+      ]
+    }
+  }
+}
