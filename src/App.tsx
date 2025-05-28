@@ -7,15 +7,15 @@ import { SalesChart } from './components/sales-chart'
 export default function App() {
   const data: SalesData = salesData
   
-  const categories = useMemo(() => Object.keys(data), [])
+  const categories = useMemo(() => Object.keys(data), [data])
   const [category, setCategory] = useState<string>(() => categories[0] || '')
 
-  const products = useMemo(() => Object.keys(data[category] || {}), [category])
+  const products = useMemo(() => Object.keys(data[category] || {}), [category, data])
   const [product, setProduct] = useState<string>(() => products[0] || '')
 
   const brands = useMemo(
     () => Object.keys(data[category]?.[product] || {}),
-    [category, product]
+    [category, product, data]
   )
   const [brand, setBrand] = useState<string>(() => brands[0] || '')
 
